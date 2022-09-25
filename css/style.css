@@ -100,11 +100,19 @@ main {
 #index .article__text {
     font-family: Roboto Mono, sans-serif;
 }
+#contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
 #contacto .contacto__mapa {
+    display: inline-block;
     width: 30%;
+    padding: 10px 3px;
 }
 #contacto .contacto__msj {
     display: inline-block;
     width: 50%;
-    padding-left: 150px ;
+    padding: 10px 5px ;
 }
