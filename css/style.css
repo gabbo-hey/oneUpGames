@@ -41,6 +41,61 @@ main {
     main section article { 
         width: 100%;
     }
+#footer {
+    color: rgb(10, 150, 100);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer div {
+    color: rgb(10, 150, 100);
+}
+    #footer div h2 a {
+        color: rgb(10, 150, 100);
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-family: 'Press Start 2P', sans-serif;
+        text-decoration: none;
+    }
+    #footer div h2 a:hover {
+        color: black;
+    }
+    #footer div ul {
+        text-transform: uppercase;
+        text-align: end;
+        font-size: 0.9em;
+        font-family: 'Press Start 2P', sans-serif;
+        display: inline-block;
+        
+        
+    }
+        #footer div ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 50px auto;
+        }
+        #footer div ul li a{
+            text-decoration: none;
+            color: rgb(10, 150, 100);
+        }
+        #footer div ul li a:hover {
+            color: black;
+            font-weight: 250;
+        }
+        #footer .footer__textLogo {
+            display: inline-block;
+            color: rgb(10, 150, 100);
+            text-transform: uppercase;
+            text-align: end;
+            font-size: 0.9em;
+            font-family: 'Press Start 2P', sans-serif;
+            display: inline-block;
+            
+        }
+        #footer .footer__links {
+            display: inline-block;
+            padding: 10px auto;
+        }
 /* selector de etiqueta */
 .nav__lista{
     text-decoration: none;
@@ -55,7 +110,6 @@ main {
     font-family: 'Press Start 2P', sans-serif;
     text-decoration: none;
 }
-
 #index .article__1 {
     display:flex;
     background-color: rgb(255, 255, 255);
@@ -104,15 +158,21 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+    background-color: rgb(10, 150, 100);
+    width: 100%;
+    overflow: hidden;
+    font-family: Roboto Mono, sans-serif;
+    padding: 15px 20px;
 }
+
+
 #contacto .contacto__mapa {
     display: inline-block;
-    width: 30%;
-    padding: 10px 3px;
+    width: 50%;
+ 
 }
 #contacto .contacto__msj {
     display: inline-block;
     width: 50%;
-    padding: 10px 5px ;
+    font-family: Roboto Mono, sans-serif
 }
