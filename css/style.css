@@ -49,13 +49,10 @@ main {
 }
 #footer div {
     color: rgb(10, 150, 100);
-}
-    #footer div h2 a {
-        color: rgb(10, 150, 100);
-        text-transform: uppercase;
-        font-size: 1.5em;
-        font-family: 'Press Start 2P', sans-serif;
-        text-decoration: none;
+}  <link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
     }
     #footer div h2 a:hover {
         color: black;
